@@ -27,24 +27,24 @@ The main purpose of this project is to create a webpage to a customer about her 
 
 ## Set up `.env` file
 
-`DATABASE_USER` = root
-`DATABASE_PASSWORD` = password
-`DATABASE_TABLE` = greenpet
-`DATABASE_HOST` = db
+- `DATABASE_USER` = root;
+- `DATABASE_PASSWORD` = password
+- `DATABASE_TABLE` = greenpet
+- `DATABASE_HOST` = db
 
-`DATABASE_DIALECT` = postgres
-`SESSION_SECRET` = passwordSecret
+- `DATABASE_DIALECT` = postgres
+- `SESSION_SECRET` = passwordSecret
 
-`POSTGRES_NAME` = greenpet
-`NEW_POSTGRES_NAME` = greenpet
-`POSTGRES_PASSWORD` = greenpet
-`POSTGRES_USER` = root
-`POSTGRES_DB` = greenpet
+- `POSTGRES_NAME` = greenpet
+- `NEW_POSTGRES_NAME` = greenpet
+- `POSTGRES_PASSWORD` = greenpet
+- `POSTGRES_USER` = root
+- `POSTGRES_DB` = greenpet
 
-`PORT` = 3000
-`DATABASE_TIMEZONE` = -03:00
+- `PORT` = 3000
+- `DATABASE_TIMEZONE` = -03:00
 
-`JWT_TOKEN` = jwttoken
+- `JWT_TOKEN` = jwttoken
 
 <hr>
 
@@ -52,9 +52,9 @@ The main purpose of this project is to create a webpage to a customer about her 
 
 To run the app you'll need [Docker](https://www.docker.com/products/docker-desktop/). After that, follow the steps below in your `terminal`:
 
-- Run: `git clone https://github.com/aleffaso/portfolioArquitetura.git`
+- Run: `git` `clone` https://github.com/aleffaso/greenpet.git
 
-- Run: `docker-compose up --build`;
+- Run: `docker-compose up --build`
 
 - Link: You can access the web page on `http://localhost:3000/`
 
