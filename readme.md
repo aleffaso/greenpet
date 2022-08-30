@@ -1,11 +1,11 @@
 # GreenPet - Pet Care Store
 
-<!-- <p>
-    <img src="public/assets/img/wallpaper.png">
-</p> -->
+<p>
+    <img src="public/images/background.png">
+</p>
 
 ## Overview
-The main purpose of this project is to create a webpage to a customer about her Pet Store.
+The main purpose of this project is to create a webpage to a customer about her Pet Care Store.
 
 <hr>
 
@@ -17,7 +17,7 @@ The main purpose of this project is to create a webpage to a customer about her 
 - EJS => Render HTML;
 - Express => Flexible framework;
 - Express-session => create specific routes for admins controller;
-- JWT: Json Web Token => Security Access 
+- JWT => Security Access 
 - Nodemon => Update server when save;
 - Sequelize => Manipulate database;
 - Slugify => Replaces spaces with hyphen from saved text;
